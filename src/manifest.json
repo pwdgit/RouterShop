@@ -1,0 +1,78 @@
+{
+  "id": "router.shop",
+  "name": "RouterShop",
+  "version": "1.4.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": {
+    "app": "PS",
+    "minVersion": "23.3.0"
+  },
+  "icons": [
+    {
+      "width": 23,
+      "height": 23,
+      "path": "icons/dark.png",
+      "scale": [1, 2],
+      "theme": ["darkest", "dark"]
+    },
+    {
+      "width": 23,
+      "height": 23,
+      "path": "icons/light.png",
+      "scale": [1, 2],
+      "theme": ["lightest", "light"]
+    }
+  ],
+  "featureFlags": {
+    "enableNetworkAccess": true
+  },
+  "requiredPermissions": {
+    "network": {
+      "domains": [
+        "https://openrouter.ai"
+      ]
+    }
+  },
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "routerShop",
+      "label": {
+        "default": "RouterShop"
+      },
+      "icons": [
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/dark.png",
+          "scale": [1, 2],
+          "theme": ["darkest", "dark"]
+        },
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/light.png",
+          "scale": [1, 2],
+          "theme": ["lightest", "light"]
+        }
+      ],
+      "minimumSize": {
+        "width": 300,
+        "height": 400
+      },
+      "maximumSize": {
+        "width": 600,
+        "height": 800
+      },
+      "preferredDockedSize": {
+        "width": 400,
+        "height": 500
+      },
+      "preferredFloatingSize": {
+        "width": 400,
+        "height": 500
+      }
+    }
+  ]
+}
