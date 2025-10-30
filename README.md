@@ -20,7 +20,7 @@ RouterShop is a powerful Adobe Photoshop plugin that brings cutting-edge AI imag
 ## 🚀 Installation
 
 ### Easy Method (Recommended for Users)
-1. Download the `RouterShop.ccx` file from the [Releases](https://github.com/pwdgit/routershop/releases) page
+1. Download the `RouterShop.ccx` file from the [Releases](https://github.com/pwdgit/RouterShop/releases) page
 2. Install Adobe Creative Cloud Desktop if you haven't already
 3. Double-click the `.ccx` file to install the plugin
 4. Launch Photoshop and find RouterShop in your Plugins panel
@@ -28,7 +28,7 @@ RouterShop is a powerful Adobe Photoshop plugin that brings cutting-edge AI imag
 ### Developer Method
 1. Clone this repository:
    ```bash
-   git clone https://github.com/pwdgit/routershop.git
+   git clone https://github.com/pwdgit/RouterShop.git
    ```
 2. Open Adobe UXP Developer Tool
 3. Load the `src/manifest.json` file from the cloned project
